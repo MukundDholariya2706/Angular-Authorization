@@ -6,7 +6,7 @@ import {
 } from '@angular/router';
 
 @Injectable({ providedIn: 'root' })
-export class NameGuard implements CanActivate {
+export class AuthGuard implements CanActivate {
   constructor() {}
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
